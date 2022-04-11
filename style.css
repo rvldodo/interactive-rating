@@ -1,0 +1,161 @@
+* {
+    font-family: 'Overpass', sans-serif;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    padding-top: 15%;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(212, 21%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 370px;
+    border-radius: 25px;
+    box-shadow: outset;
+}
+
+/* rating start */
+.rating {
+    display: block;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.img-star {
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.img-star img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 12px;
+    size: 15px;
+}
+
+.rating p {
+    padding-left: 3px;
+    padding-right: 25px;
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.rating-question {
+    font-weight: 700;
+}
+
+.rate {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.rate button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(213, 19%, 18%);
+    transition: 0.3s;
+}
+
+.rate button:hover {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.rate a {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.btn-submit {
+    width: 290px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 6px;
+    border-radius: 50vh;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #ffff;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+/* rating end */
+
+/* thank you start */
+.thank--you {
+    display: none;
+}
+
+.img-thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.box-thank-you {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50vh;
+    width: 200px;
+    height: 35px;
+    margin-left: 75px;
+}
+
+.rating-output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank--you h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.text-thank-you {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 0px 30px;
+    opacity: 0.5;
+}
+/* thank you end */
+
+.footer {
+    display: none;
+}
