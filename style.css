@@ -60,7 +60,7 @@ body {
     font-weight: 700;
 }
 
-.rate {
+.rate-container {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -71,25 +71,25 @@ body {
     padding-bottom: 12px;
 }
 
-.rate button {
+.rate-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
     background-color: hsl(213, 19%, 18%);
+    opacity: 0.5;
     transition: 0.3s;
 }
 
-.rate button:hover {
+.rate-container div:hover {
     background-color: hsl(216, 12%, 54%);
+    opacity: 1;
 }
 
-.rate a {
-    font-size: 15px;
-    font-weight: 400;
-    opacity: 0.5;
-}
 
 .btn-submit {
     width: 290px;

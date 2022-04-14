@@ -1,8 +1,18 @@
 'use strict'
 
 // Elements
-const ratingNumber = document.querySelector('.rate');
-const btn = document.querySelectorAll('.btn-rate');
+const numRate = document.querySelectorAll('.btn-rate');
+
+numRate.forEach(num => {
+    num.addEventListener('click', function(e) {
+        const clicked = true;
+        clicked ? clicked : !clicked;
+        if(clicked) {
+            this.style.backgroundColor = '#FB7413';
+            this.style.opacity = 1;
+        } else !clicked;
+    })
+})
 
 /*
 const displayNumber = (num => {
@@ -20,7 +30,3 @@ const displayNumber = (num => {
 })
 displayNumber(arr);
 */
-
-btn.forEach(b => b.addEventListener('click', (e) => {
-    
-}))
